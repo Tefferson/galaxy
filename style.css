@@ -1,0 +1,23 @@
+body {
+    background-color: #003a65;
+}
+
+h3 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #009085;
+    font-size: 190px;
+    font-family: Georgia, serif;
+}
+
+h3:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 680px) {
+    h3 {
+        font-size: 80px;
+    }
+}
